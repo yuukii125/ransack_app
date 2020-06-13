@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   private
 
     def params_user_search
-      params.permit(:search_name, :search_age)
+      params.permit(:search_name, :search_age_under, :search_age_top)
     end
     
 end
